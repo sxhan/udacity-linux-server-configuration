@@ -1,9 +1,11 @@
-# README
-Project to fulfill asldjfals;djfs
+# Udacity Full Stack Web Developer Nanodegree's Project 7: Linux Server Configuration
+A description of configurations made to an Amazon Lightsail VPS to fulfill requirements of the project
+
 
 ## TODO:
 - Fix postgresql and sqlalchemy interaction resulting in incorrect primary key behavior
 - Fix Facebook login error
+
 
 ## IP Address and URL
 http://34.198.238.35
@@ -39,6 +41,7 @@ The server was configured following these steps:
  - `cd ~/.ssh`
  - Generate ssh key pair: `ssh-keygen`
   - Feel free to use default save directory and blank password
+ - Copy contents public key into `~/.ssh/authorized_keys`
 7. Set timezone to UTC
  - Run: `sudo dpkg-reconfigure tzdata`
   - Select 'None of the above'
